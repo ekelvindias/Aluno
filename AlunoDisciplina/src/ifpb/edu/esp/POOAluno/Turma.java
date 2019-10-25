@@ -6,6 +6,7 @@ public class Turma {
 
 	private Long codigo;
 	private Set<Aluno> alunos;
+	private Integer anoTurma;
 	
 	public Long getCodigo() {
 		return codigo;
@@ -18,6 +19,12 @@ public class Turma {
 	}
 	public void setAlunos(Set<Aluno> alunos) {
 		this.alunos = alunos;
+	}
+	public Integer getAnoTurma() {
+		return anoTurma;
+	}
+	public void setAnoTurma(Integer anoTurma) {
+		this.anoTurma = anoTurma;
 	}
 	
 }

@@ -4,7 +4,6 @@ import java.util.Set;
 
 public class Professor {
 
-	
 	private Integer matriculaP;
 	private String nomeP;
 	private Set<Turma> turmas;
